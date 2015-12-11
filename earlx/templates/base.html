@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags always come first -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<title>{% block title %}{% endblock title %}</title>
+
+		{% block styles %}
+		<!-- Bootstrap 4.0.0-alpha -->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+		{% endblock styles %}
+	</head>
+	<body>
+		{% block content %}{% endblock content %}
+
+		{% block scripts %}
+		<!-- Bootstrap 4.0.0-alpha -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+		{% endblock scripts %}
+	</body>
+</html>
