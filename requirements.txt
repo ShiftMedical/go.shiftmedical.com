@@ -1,0 +1,12 @@
+## The following requirements were added by pip freeze:
+dj-database-url==0.3.0
+Django==1.9
+django-debug-toolbar==1.4
+flake8==2.5.0
+gunicorn==19.4.1
+mccabe==0.3.1
+pep8==1.5.7
+psycopg2==2.6.1
+pyflakes==1.0.0
+sqlparse==0.1.18
+whitenoise==2.0.6
